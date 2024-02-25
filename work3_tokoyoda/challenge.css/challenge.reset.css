@@ -1,0 +1,50 @@
+
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+body {
+    color: #666666;
+    font-weight: 400;
+    margin: 60px 40px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  }
+
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+div,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    box-sizing: border-box;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+}
+
+
+a:hover {
+    cursor: pointer;
+  }
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
